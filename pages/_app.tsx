@@ -21,6 +21,7 @@ const navItems: NavItems = [
   // { title: 'Awesome SaaS Features', href: '/features' },
   { title: 'Pricing', href: '/pricing' },
   { title: 'Contact', href: '/contact' },
+  { title: 'Blogs', href: '/blog' },
   // { title: 'Sign up', href: '/sign-up', outlined: true },
 ];
 
@@ -33,7 +34,18 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
       <ColorModeScript />
+      
       <GlobalStyle />
+
+      {/* made for light mode  */}
+      <style>
+        {`
+          body {
+            background: rgb(251,251,253);
+            color: rgb(10,18,30);
+          }
+        `}
+      </style>
 
       <Providers>
         <Modals />

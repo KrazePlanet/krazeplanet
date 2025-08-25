@@ -11,49 +11,24 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 
-.next-light-theme {
-  --background: 251,251,253;
-  --secondBackground: 255,255,255;
-  --text: 10,18,30;
-  --textSecondary: 255,255,255;
-  --primary: 22,115,255; 
-  --secondary: 10,18,30;
-  --tertiary: 231,241,251;
-  --cardBackground: 255,255,255;
-  --inputBackground: 255,255,255;
-  --navbarBackground: 255,255,255;
-  --modalBackground: 251,251,253;
-  --errorColor: 207,34,46;
-  --logoColor: #243A5A;
-}
 
-.next-dark-theme {
-  --background: 26,32,44;
-  --secondBackground: 45,55,72;
-  --text: 237,237,238;
-  --textSecondary: 255,255,255;
-  --primary: 22,115,255; 
-  --secondary: 10,18,30;
-  --tertiary: 231,241,251;
-  --cardBackground: 45,55,72;
-  --inputBackground: 45,55,72;
-  --navbarBackground: 45,55,72;
-  --modalBackground: 26,32,44;
-  --errorColor: 207,34,46;
-  --logoColor: #fff;
-}
 
-:root {
-  --font: 'Poppins', sans-serif;
-  
-  --shadow-md: 0 2px 4px 0 rgb(12 0 46 / 4%);
-  --shadow-lg: 0 10px 14px 0 rgb(12 0 46 / 6%);
-
-  --z-sticky: 7777;
-  --z-navbar: 8888;
-  --z-drawer: 9999;
-  --z-modal: 9999;
-}
+ :root {
+    --background: 251,251,253;
+    --secondBackground: 255,255,255;
+    --text: 10,18,30;
+    --textSecondary: 255,255,255;
+    --primary: 22,115,255; 
+    --secondary: 10,18,30;
+    --tertiary: 231,241,251;
+    --cardBackground: 255,255,255;
+    --inputBackground: 255,255,255;
+    --navbarBackground: 255,255,255;
+    --modalBackground: 251,251,253;
+    --errorColor: 207,34,46;
+    --logoColor: #243A5A;
+    --font: 'Poppins', sans-serif;
+  }
 
 /* Box sizing rules */
 *,
