@@ -6,34 +6,47 @@ export default function FaqSection() {
   return (
     <Wrapper>
       <SectionTitle>Frequently asked question</SectionTitle>
-      <Accordion title="Eiusmod eu laboris qui minim incididunt et id in elit veniam Lorem nulla ullamco.">
-        Voluptate ad aliquip in adipisicing incididunt officia. Aliqua consectetur id commodo fugiat sunt dolor minim. Aliqua ut deserunt
-        sit irure tempor esse labore elit commodo pariatur in nisi minim culpa. Exercitation eu in mollit tempor cillum excepteur
-        adipisicing cillum do et dolor est deserunt dolor. Deserunt reprehenderit nulla commodo quis et consectetur deserunt ea eiusmod
-        reprehenderit aliqua. Cupidatat commodo do ad ullamco ad enim sint sint irure amet culpa. Consequat sit Lorem sint culpa.
-      </Accordion>
-      <Accordion title="Minim eiusmod aliquip in ea mollit fugiat ullamco veniam enim sint exercitation.">
-        Lorem laboris ullamco labore consectetur duis amet excepteur esse labore sunt pariatur do aliqua amet. Enim exercitation labore
-        nostrud consectetur veniam eiusmod pariatur do commodo dolore pariatur amet veniam. Irure do et ut dolor quis reprehenderit anim
-        aute sint deserunt tempor sunt nostrud. Deserunt et aute non dolor.
-      </Accordion>
-      <Accordion title="Commodo officia dolore anim occaecat.">
-        Enim ea cillum pariatur incididunt incididunt sunt ea exercitation nisi aliquip. Cillum deserunt ut esse Lorem non qui labore labore
-        eiusmod magna incididunt ut quis. Nulla excepteur adipisicing ipsum do non occaecat.
-      </Accordion>
-      <Accordion title="Irure Lorem proident esse enim.">
-        Ipsum laboris sit minim occaecat nisi qui. Tempor eiusmod fugiat occaecat labore. Exercitation do cillum cillum laborum velit
-        laborum ea magna duis laborum in anim. Enim laboris dolore laboris consectetur enim duis deserunt consequat excepteur ipsum
-        excepteur. Non dolor magna et est cillum sint eiusmod sit eiusmod veniam id. Aliqua non non labore amet laborum fugiat ad nostrud ex
-        officia exercitation.
-      </Accordion>
-      <Accordion title="Ea quis consequat sunt sint aute pariatur aliquip minim voluptate.">
-        Sint eiusmod aute nulla ut esse sunt fugiat nulla exercitation duis pariatur. Magna anim incididunt magna id quis irure laborum sint
-        voluptate tempor esse elit dolore. Elit exercitation pariatur adipisicing aute. Nisi deserunt enim consequat anim adipisicing
-        laborum sint occaecat elit. Consequat officia cupidatat magna incididunt nisi in sunt duis reprehenderit ullamco in amet cillum.
-        Dolor nisi proident ipsum aute velit aliquip magna fugiat reprehenderit. Enim ex aliqua et velit exercitation reprehenderit veniam
-        do eu exercitation ad duis.
-      </Accordion>
+      <Accordion title="What is penetration testing?">
+  A penetration test, or pentest, is a simulated cyber attack against your computer system to check for exploitable vulnerabilities.
+  It's a proactive security measure to find and fix security weaknesses before attackers do.
+</Accordion>
+
+<Accordion title="How long does a penetration test take?">
+  The duration of a pentest depends on the scope and complexity of the target system. A typical test can range from a few days to several weeks.
+</Accordion>
+
+<Accordion title="Will a penetration test disrupt my business?">
+  We take great care to minimize disruption to your business operations. Our tests are conducted in a controlled manner, and we work with you
+  to schedule testing during off-peak hours.
+</Accordion>
+
+<Accordion title="How much does a penetration test cost?">
+  You can get an instant estimate using our Custom Pricing Calculator above. The final cost depends on the scope and complexity of the
+  engagement, including factors like number of IP addresses, web applications, and cloud infrastructure to be tested.
+</Accordion>
+
+<Accordion title="What happens after the penetration test?">
+  After the test, you'll receive a detailed report outlining our findings, including the vulnerabilities we discovered, the risk they pose,
+  and recommendations for remediation. We'll also provide a debriefing call to discuss the results and answer any questions.
+</Accordion>
+
+<Accordion title="Can a pentest help with Cyber Essentials / ISO 27001 / SOC 2 compliance?">
+  Yes, a penetration test can be a critical component in achieving compliance with standards like Cyber Essentials, ISO 27001, and SOC 2.
+  These frameworks often require regular security assessments, and a pentest can help identify vulnerabilities that need to be addressed
+  to meet compliance requirements.
+</Accordion>
+
+<Accordion title="Are the tests manual, automated, or both?">
+  Our penetration tests are a combination of both manual and automated techniques. Automated tools are used to quickly identify known
+  vulnerabilities, while manual testing is conducted by our security experts to uncover complex vulnerabilities and assess the real-world
+  risk of exploitation.
+</Accordion>
+
+<Accordion title="How quickly can you start a penetration test?">
+  We can typically begin a penetration test within a few days of finalizing the scope and requirements. Our team works with you to
+  schedule the test at a convenient time, ensuring minimal disruption to your business operations.
+</Accordion>
+
     </Wrapper>
   );
 }
