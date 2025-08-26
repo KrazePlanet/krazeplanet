@@ -15,7 +15,7 @@ const FEATURES = [
   },
   {
     imageUrl: '/grid-icons/asset-2.svg',
-    title: 'Web Application Pentesting',
+    title: 'Mobile Application Pentesting',
     description:
       'Secure your iOS and Android applications against mobile-specific threats.',
   },
