@@ -1,4 +1,4 @@
-import NextImage from 'next/image';
+// import NextImage from 'next/image';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -47,7 +47,7 @@ export default function Testimonials() {
           {TESTIMONIALS.map((singleTestimonial, idx) => (
             <SwiperSlide key={idx}>
               <TestimonialCard>
-                <NextImage
+                <img
                   src={singleTestimonial.companyLogoUrl}
                   alt={`${singleTestimonial.author.name}'s company logo`}
                   width={200}
@@ -56,7 +56,7 @@ export default function Testimonials() {
                 <Content>“{singleTestimonial.content}”</Content>
                 <AuthorContainer>
                   <AuthorImageContainer>
-                    <NextImage src={singleTestimonial.author.avatarUrl} alt={singleTestimonial.author.name} width={48} height={48} />
+                    <img src={singleTestimonial.author.avatarUrl} alt={singleTestimonial.author.name} width={48} height={48} />
                   </AuthorImageContainer>
                   <AuthorContent>
                     <AuthorName>{singleTestimonial.author.name}</AuthorName>

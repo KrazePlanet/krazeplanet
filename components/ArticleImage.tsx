@@ -11,7 +11,7 @@ export default function ArticleImage({ src, caption, ...rest }: ArticleImageProp
   return (
     <Wrapper>
       <ImageWrapper>
-        <NextImage
+        <img
           src={src}
           alt={caption || 'Article Image'}
           placeholder="blur"

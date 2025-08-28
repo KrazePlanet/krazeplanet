@@ -1,13 +1,12 @@
-import Image from "next/image";
-import img from "/public/Copilot_20250826_120950-removebg-preview.png"; // ✅ correct path
+import img from "/public/Copilot_20250826_120950-removebg-preview.png";
 
 export default function Logo({ ...rest }) {
   return (
-    <Image
-      src={img}
+    <img
+      src={img.src}  // 👈 use .src
       alt="Logo"
-      width={60} // set width
-      height={60} // set height
+      width={60}
+      height={60}
       {...rest}
     />
   );

@@ -9,9 +9,16 @@ module.exports = withBundleAnalyzer({
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
   images: {
     domains: ['github.blog', 'www.pentestly.io', 'antavo.com'],
-    deviceSizes: [320, 640, 1080, 1200],
-    imageSizes: [64, 128],
+    // deviceSizes: [320, 640, 1080, 1200],
+    // imageSizes: [64, 128],
+    unoptimized: true,
+
   },
+  experimental: {
+    images: {
+        unoptimized: true
+    }
+},
   swcMinify: true,
   compiler: {
     styledComponents: true,

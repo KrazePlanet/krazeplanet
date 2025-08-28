@@ -75,7 +75,7 @@ const Section = styled.section`
 `;
 
 const SwiperContainer = styled(Container)`
-  max-width: 250em;
+  max-width: 100em;
   height: 46rem;
 
   & > *:first-child {
